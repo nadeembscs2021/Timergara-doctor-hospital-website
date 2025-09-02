@@ -1,0 +1,20 @@
+.doctor-card .card img {
+  height: 300px;
+}
+.modal-body img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+.card {
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.doctor-card {
+  transition: transform 0.6s;
+}
+
+.doctor-card:hover {
+  transform: translateY(-10px);
+}

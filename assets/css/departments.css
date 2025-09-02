@@ -1,0 +1,38 @@
+.doctor-modal-img {
+  width: 100px;
+  height: 100px;
+
+  border-radius: 50%;
+  border: 3px solid var(--bs-primary);
+  margin: 0 auto 1rem;
+}
+*/ .doctor-badge {
+  font-size: 0.8rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.department-doctors {
+  display: none;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid #eee;
+}
+
+.icon-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.doctor-profile-section {
+  background-color: #f8f9fa;
+  padding: 3rem 0;
+}
+
+.department-container {
+  margin-bottom: 1.5rem;
+}

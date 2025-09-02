@@ -1,0 +1,142 @@
+/* Appointment Hero */
+.appointment-hero {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+/* Cards */
+.contact-card {
+  transition: all 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.icon-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Form Styles */
+#appointmentForm .form-control,
+#appointmentForm .form-select {
+  padding: 0.75rem 1rem;
+  border: 1px solid #dee2e6;
+}
+
+#appointmentForm .form-control:focus,
+#appointmentForm .form-select:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+/* .appointment-hero end */
+
+/* Contact start */
+.contact-hero {
+  background: linear-gradient(rgba(0, 123, 255, 0.8), rgba(0, 86, 179, 0.8)),
+    url("../images/contact-hero-bg.webp");
+  background-size: cover;
+  background-position: center;
+  padding: 5rem 0;
+}
+
+/* Contact Info Cards */
+.contact-info-card {
+  transition: all 0.3s ease;
+  border-radius: 0.5rem;
+}
+
+.contact-info-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Form */
+#contactForm .form-control,
+#contactForm .form-seect {
+  padding: 0.75rem 1rem;
+  border: 1px solid #dee2e6;
+}
+
+#contactForm .form-control:focus,
+#contactForm .form-select:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+/* Contact Map */
+.contact-map-container {
+  border: 1px solid #dee2e6;
+  padding: 1.5rem;
+}
+
+/* Emergency CTA */
+.emergency-cta {
+  background: linear-gradient(rgba(220, 53, 69, 0.9), rgba(220, 53, 69, 0.9));
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .contact-hero {
+    padding: 3rem 0;
+  }
+
+  .contact-info-card {
+    margin-bottom: 1rem;
+  }
+}
+/* contact sention end */
+
+/* Login Section */
+.login-section {
+  min-height: calc(100vh - 200px);
+  display: flex;
+  align-items: center;
+}
+
+/* Login Card */
+.card {
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+/* Form Styles */
+#loginForm .form-control {
+  padding: 0.75rem 1rem;
+  transition: all 0.3s ease;
+}
+
+#loginForm .form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+/* Toggle Password Button */
+.toggle-password {
+  border-left: 0;
+}
+
+/* Social Login Buttons */
+.social-login {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 576px) {
+  .card-body {
+    padding: 2rem !important;
+  }
+}
+
+/* login end */

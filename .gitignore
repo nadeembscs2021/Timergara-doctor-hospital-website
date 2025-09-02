@@ -1,0 +1,109 @@
+# 🔒 Sensitive files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 💻 Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 📦 Build & output
+dist/
+build/
+out/
+.next/
+.next-static/
+
+# ⚙️ OS/system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# 💥 Logs
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# 🎥 Large video/media files
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.mp3
+*.wav
+
+# 🖼 Cache and static builds
+.cache/
+.vscode/
+coverage/
+*.tgz
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# ⚛️ React specific
+*.map
+*.lock
+*.gz
+*.br
+
+# 🔍 Testing
+coverage/
+jest/
+test-output/
+
+# ⛔ Git backup files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
+
+# 📸 Screenshots or temp assets
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.ico
+screenshots/
+
+# 🧪 Database dumps
+*.sql
+*.sqlite
+*.db
+dump.rdb
+*.bak
+
+# 🛠 Editor configs
+.idea/
+.vscode/
+*.code-workspace
+
+# 🗃 Compiled binary/extra folders
+bin/
+obj/
+tmp/
+temp/
+
+# 🔧 Misc
+*.log
+*.bak
+*.tmp
+*.old
+*.orig
+
+# 💾 Local development settings
+*.local
+*.sublime-workspace
+*.sublime-project
