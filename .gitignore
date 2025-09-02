@@ -1,38 +1,50 @@
-# 🔒 Sensitive files
+# ==========================
+# 🔒 Environment & sensitive files
+# ==========================
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-# 💻 Node dependencies
+# ==========================
+# 💻 Node.js dependencies
+# ==========================
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# 📦 Build & output
+# ==========================
+# 📦 Build & output directories
+# ==========================
 dist/
 build/
 out/
 .next/
 .next-static/
 
-# ⚙️ OS/system files
+# ==========================
+# ⚙️ OS / System files
+# ==========================
 .DS_Store
 Thumbs.db
 ehthumbs.db
 desktop.ini
 
-# 💥 Logs
+# ==========================
+# 💥 Logs & process files
+# ==========================
 *.log
 logs/
 *.pid
 *.seed
 *.pid.lock
 
-# 🎥 Large video/media files
+# ==========================
+# 🎥 Media files
+# ==========================
 *.mp4
 *.mov
 *.avi
@@ -41,9 +53,12 @@ logs/
 *.mp3
 *.wav
 
-# 🖼 Cache and static builds
+# ==========================
+# 🖼 Cache & editor folders
+# ==========================
 .cache/
 .vscode/
+.idea/
 coverage/
 *.tgz
 *.tar.gz
@@ -51,25 +66,34 @@ coverage/
 *.rar
 *.7z
 
-# ⚛️ React specific
+# ==========================
+# ⚛️ React / front-end files
+# ==========================
 *.map
 *.lock
 *.gz
 *.br
 
+# ==========================
 # 🔍 Testing
+# ==========================
 coverage/
 jest/
 test-output/
 
-# ⛔ Git backup files
+# ==========================
+# ⛔ Backup & temp files
+# ==========================
 *.swp
 *.swo
 *.bak
 *.tmp
+*.old
 *.orig
 
-# 📸 Screenshots or temp assets
+# ==========================
+# 📸 Screenshots / temporary assets
+# ==========================
 *.png
 *.jpg
 *.jpeg
@@ -78,32 +102,31 @@ test-output/
 *.ico
 screenshots/
 
+# ==========================
 # 🧪 Database dumps
+# ==========================
 *.sql
 *.sqlite
 *.db
 dump.rdb
 *.bak
 
-# 🛠 Editor configs
-.idea/
-.vscode/
+# ==========================
+# 🛠 Editor & IDE configs
+# ==========================
 *.code-workspace
+*.sublime-workspace
+*.sublime-project
 
-# 🗃 Compiled binary/extra folders
+# ==========================
+# 🗃 Compiled binaries / temp folders
+# ==========================
 bin/
 obj/
 tmp/
 temp/
 
-# 🔧 Misc
-*.log
-*.bak
-*.tmp
-*.old
-*.orig
-
+# ==========================
 # 💾 Local development settings
+# ==========================
 *.local
-*.sublime-workspace
-*.sublime-project
